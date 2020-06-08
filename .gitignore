@@ -3,3 +3,6 @@
 .ipynb_checkpoints/liar_eda-checkpoint.ipynb
 *.stanza
 data/glove.840B.300d.txt
+data/glovetmp.txt
+*.lock
+*.dirlock
