@@ -48,3 +48,20 @@ def extract_pos(doc):
             parsed_text['exp'].append(pos_exp)
     #return a dataframe of pos and text
     return pd.DataFrame(parsed_text)
+
+#extract all relevant features (pos, lemma)
+def extract(doc):
+    parsed_text = {'word':[], 'lemma':[] , 'pos':[], 'exp':[]}
+    for sent in doc.sentences:
+        for wrd in sent.words:
+            if wrd.pos in pos_dict.keys():
+                pos_exp = pos_dict[wrd.pos]
+            else:
+                pos_exp = 'NA'
+            parsed_text['word'].append(wrd.text)
+            parsed_text['lemma'].append(wrd.lemma)
+            parsed_text['pos'].append(wrd.pos)
+            parsed_text['exp'].append(pos_exp)
+    #return a dataframe of pos and text
+    return pd.DataFrame(parsed_text)
+
