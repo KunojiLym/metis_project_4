@@ -10,3 +10,4 @@ data/googlefactcheck.json
 data/googlefactcheck.key
 data/googlefactcheck_program.json
 data/token.pickle
+.ipynb_checkpoints/googlefactcheck-checkpoint.ipynb
