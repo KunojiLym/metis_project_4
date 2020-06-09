@@ -6,3 +6,7 @@ data/glove.840B.300d.txt
 data/glovetmp.txt
 *.lock
 *.dirlock
+data/googlefactcheck.json
+data/googlefactcheck.key
+data/googlefactcheck_program.json
+data/token.pickle
