@@ -12,3 +12,4 @@ data/googlefactcheck_program.json
 data/token.pickle
 .ipynb_checkpoints/googlefactcheck-checkpoint.ipynb
 ~$Which news is fake.pptx
+data/politifact.pickle
